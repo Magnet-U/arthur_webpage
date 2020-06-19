@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+</head>
+<body>
+	
+  <h1>Login</h1>
+    <form>
+      <label for="username">Email:</label>
+      <input id="username" type="Email" placeholder="Email" required>
+      
+      <label for="password">Password:</label>
+        <input id="password" type="password" placeholder= "password" required>  
+      </label>
+      
+      <input type="submit" name="">
+
+      </form>
+      
+      </body>
+</html>
