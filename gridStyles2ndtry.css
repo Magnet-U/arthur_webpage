@@ -1,0 +1,142 @@
+/*Grid for Arthur page 
+header - scrolling
+5 two-Grid for text and images
+footer
+*/
+
+body {
+	background: #e0ebeb;
+}
+
+/* this is the css for the grid - found a really helpfull tutorial here: 
+https://www.qhmit.com/css/grid/tutorial/;*/
+#grid {
+  display: grid;
+  grid-template-rows: repeat(8, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  height: 100vh;
+  margin: 0;
+  background: #e0ebeb;
+  margin-top: 150px;
+
+}
+#grid > div {
+  color: #141f1f;
+  padding: 5px;
+  background: #e0ebeb;
+}
+#grid > div:nth-child(1) {
+  grid-column: span 4;
+  background: rgba(41,61,61,0.7);
+  color: white;
+  }
+#grid > div:nth-child(2) {
+  grid-column: span 2;
+  }
+  #grid > div:nth-child(3) {
+  grid-column: span 2;
+  }
+#grid > div:nth-child(4) {
+  grid-column: span 2;
+  }
+#grid > div:nth-child(5) {
+  grid-column: span 2;
+  }
+#grid > div:nth-child(6) {
+  grid-column: span 2;
+  }
+#grid > div:nth-child(7) {
+  grid-column: span 2;
+  }
+#grid > div:nth-child(8) {
+  grid-column: span 2;
+  }
+#grid > div:nth-child(9) {
+  grid-column: span 2;
+  }
+
+#grid > div:nth-child(10) {
+  grid-column: span 4;
+  background: rgba(41,61,61,0.7);
+  color: white;
+
+}
+
+/*fixed header*/
+#header {
+	overflow: hidden;
+	border: 2px dashed;
+ 	top: 0;
+    background: rgba(41,61,61,0.7);
+    color: white;
+    z-index: 1; 
+    width: 100%;
+    font-family: 'lato', cursive;
+    font-weight: 800;
+   	position: fixed;
+}
+
+/*highlight the a tags on hover over*/
+#header a {
+	color: white;
+	padding:15px;
+	text-transform: uppercase;
+}
+#header a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.article{
+font-family: 'Raleway', sans-serif;
+}
+
+.article h1{
+	font-family: lato, sans-serif;
+	font-weight: 800;
+}
+
+#footer {
+	font-family: 'Raleway', sans-serif;
+}
+
+/*CSS for the login-box*/
+		.form input {
+		  	background: #FFFFFF;
+			padding: 15px;
+			border: 0,1;
+			width: 330px;
+			color: black;
+			font-size: 14px;
+
+		}
+
+		.form button {
+			text-transform: uppercase;
+			background: rgb(143,175,255);
+			width: 360px;
+			border: 0;
+			padding: 15px;
+		color: #FFFFFF;
+
+}
+
+/*CSS for the image Gallery*/
+#imgGallery img{
+	width: 300px;
+	float: left; /*removes white space*/
+	margin: 1.66%
+}
+
+#imgGallery p{
+	font-family: 'Raleway', sans-serif;
+	margin-left: 1.66%;
+	font-size: 23px;
+	font-weight: 800;
+	border-bottom: 2px solid rgba(41,61,61,0.7);;
+	width: 30%;
+	padding-bottom: 20px;
+	color: #141f1f;
+	
+
