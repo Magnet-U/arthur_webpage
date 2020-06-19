@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title> Arthur </title>
+
+
+  <style>
+
+    header{
+      border: 2px dashed;
+      position: fixed;
+      background-color: rgb(143,175,255);
+      top: 0px;
+      left:0px;
+      right:0px;
+    }
+
+    h1{
+      font-family:sans-serif;
+      font-size: 50px;
+      color: hotpink;
+      font-style:normal;
+      margin:10px;
+      font-weight: lighter;
+
+    }
+
+    .introspans{
+      position:relative;
+      background-color: ;
+      font-family:sans-serif;
+      font-size: 15px;
+      font-style:normal;
+      font-weight: lighter;
+      text-align: center;
+      text-decoration: none;
+      color:hotpink;
+    }
+
+    a:link{
+      text-decoration: none;
+    }
+
+    a:visited{
+      color:honeydew;
+    }
+
+    a:hover{
+      color:indigo;
+    }
+
+    h2{
+      color:hotpink;
+      font-weight:lighter;
+      font-size:30px;
+    }
+
+
+    p{
+      color:indigo;
+      font-weight: lighter;
+      font-size: 20px;
+    }
+
+  </style>
+  <body>
+    <header>
+
+      <h1>Arthur
+      <span class="introspans"> <a href="#whatwedo">What we do</a> </span><span class="introspans"><a href="#howitworks">How it works</a></span>
+      <span class="introspans"><a href="#localartists">Local artists</a> </span><span class="introspans"><a href="#so">Our deal</a></span>
+      <span class="introspans"> <a href="#contacts">Contacts</a></span>
+      </h1>
+
+    </header>
+
+
+
+      </body>
+
+
+    </html>
